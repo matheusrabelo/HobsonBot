@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip install coveralls
+script:
+  - nosetests -v --with-flaky --no-flaky-report --with-coverage --cover-package=source/
+after_success:
+  coveralls
