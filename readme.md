@@ -1,5 +1,7 @@
 # HobsonBot
 
+[![Build Status](https://travis-ci.org/matheusrabelo/HobsonBot.svg?branch=master)](https://travis-ci.org/matheusrabelo/HobsonBot) [![Coverage Status](https://coveralls.io/repos/github/matheusrabelo/HobsonBot/badge.svg?branch=master)](https://coveralls.io/github/matheusrabelo/HobsonBot?branch=master)
+
 ## About
 
 A lightweight and extensible open-source Telegram Bot.
