@@ -12,9 +12,17 @@ This bot is your new personal assistant on Telegram.
 You just need to search **@HobsonBot** on Telegram and start a conversation with him.
 
 ## How to start developing
-Install the following packages: flaky, nose, python-telegram-bot. Then, get a new token from Telegram Bot API. Finally, clone this repo, go to source/utils and create a **token.py** file, following the **token.example.py**.
 
-To run, use:
+Clone this repo and install all requirements.
+
+```bash
+$ pip install -r requirements.txt ; pip install -r requirements-dev.txt 
+```
+
+Then, get a new token from **@BotFather** on Telegram. Finally, go to source/utils and create a **token.py** file, following the **token.example.py**.
+
+To start the application, use:
+
 ```bash
 $ python source/main.py
 ```
