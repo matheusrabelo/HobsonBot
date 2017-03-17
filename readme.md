@@ -30,7 +30,7 @@ Then, install all requirements.
 $ pip install -r requirements.txt ; pip install -r requirements-dev.txt 
 ```
 
-Then, get a new token from **@BotFather** on Telegram. Finally, go to source/utils and create a **token.py** file, following the **token.example.py**.
+Get a new token from **@BotFather** on Telegram. Finally, go to source/utils and create a **token.py** file, following the **token.example.py**.
 
 To start the application, use:
 
