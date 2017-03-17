@@ -2,3 +2,4 @@ token.py
 __pycache__
 .coverage
 *.pyc
+venv

@@ -13,7 +13,18 @@ You just need to search **@HobsonBot** on Telegram and start a conversation with
 
 ## How to start developing
 
-Clone this repo and install all requirements.
+Ensure you have Python3 and Virtualenv installed.
+
+Clone this repo and prepare your environment.
+
+```bash
+$ git clone https://github.com/matheusrabelo/HobsonBot.git
+$ cd HobsonBot
+$ virtualenv venv
+$ source ./venv/bin/activate
+```
+
+Then, install all requirements.
 
 ```bash
 $ pip install -r requirements.txt ; pip install -r requirements-dev.txt 
